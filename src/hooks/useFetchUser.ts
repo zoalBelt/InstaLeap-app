@@ -25,6 +25,7 @@ const useFetchUser = () => {
         setUser(null);
       }
     } catch (err) {
+      console.log(err)
       setError("Error al obtener el usuario.");
       setUser(null);
     } finally {
