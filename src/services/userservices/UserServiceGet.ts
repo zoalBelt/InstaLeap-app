@@ -4,10 +4,10 @@ import { User } from "../../core/user/User";
 const API_URL = "https://reqres.in/api/users";
 
 /**
- * Obtiene un usuario por su ID desde la API de ReqRes.
+ * Obtiene todos los usuarios desde la API de ReqRes.
  *
- * @param id - ID del usuario que se desea obtener.
- * @returns Un objeto con los datos del usuario si se encuentra, o `null` si no existe.
+ * .
+ * @returns Un objeto list con los datos de los usuario si se encuentra, o `null` si no existe.
  */
 export const getUsers = async (): Promise<User[]> => {
   try {
