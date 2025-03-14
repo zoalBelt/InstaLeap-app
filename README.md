@@ -1,12 +1,10 @@
+Este es el prompt utilizado paa la creación del hook personalizado
+
 # 🛠️ Hook Personalizado: `useFetchUser`
-
-## 📌 Descripción
-Este proyecto incluye un hook personalizado en React llamado **`useFetchUser`**, que encapsula la lógica de obtención de un usuario por ID desde la API **ReqRes**.
-
 ---
 
-## 🎯 **Objetivo del Hook**
-El hook debe encapsular la siguiente lógica y permitir su reutilización en cualquier componente:
+## 🎯 **Prompt**
+Ayudame a crear un hook personalizad, el hook debe encapsular la siguiente lógica y permitir su reutilización en cualquier componente:
 
 ```tsx
 import { useState } from "react";
